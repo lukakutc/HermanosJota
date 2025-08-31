@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Productos</title>
+  <link rel="stylesheet" href="styles/estilos.css" />
+</head>
+<body>
+  <header>
+    <img src="img/logo.svg" alt="Logo Hermanos Jota" />
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="productos.html" target="_blank" rel="noopener noreferrer">Catálogo</a>
+      <a href="#pie-pagina" target="_blank" rel="noopener noreferrer">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="catalogo">
+      <h2>Catálogo de Productos</h2>
+
+      <!-- Campo de búsqueda -->
+      <div id="buscador">
+        <input type="text" id="input-busqueda" placeholder="Buscar producto..." />
+      </div>
+
+      <div id="lista-productos">
+        <!-- Aquí se renderizan las tarjetas dinámicamente -->
+      </div>
+    </section>
+  </main>
+
+  <footer id="pie-pagina">
+    <p>© 2025 Mueblería Hermanos Jota. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="scripts/producto.js"></script>
+</body>
+</html>
