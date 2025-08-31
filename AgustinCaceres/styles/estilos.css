@@ -97,6 +97,32 @@ h2 {
   margin: 0;
 }
 
+.tarjeta-producto {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.tarjeta-producto img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.tarjeta-producto h3 {
+  font-size: 1.2rem;
+  margin: 0.8rem 0;
+  color: #A0522D;
+}
+
+.tarjeta-producto .precio {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #C47A6D;
+}
+
 #lista-destacados .producto {
   background: #fff;
   width: 220px;

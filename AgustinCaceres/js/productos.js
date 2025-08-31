@@ -1,14 +1,9 @@
+const listaProductos = document.querySelector("#lista-productos");
 
 
-
-//PRODUCTOS DESTACADOS
-const listaDestacados = document.querySelector("#lista-destacados");
-
-const destacados = productos.filter(p => p.destacado);
-
-destacados.forEach(producto => {
+productos.forEach(producto => {
   const item = document.createElement("li");
-  item.classList.add("producto-destacado");
+  item.classList.add("tarjeta-producto");
   item.innerHTML = `
     <a href="producto.html?id=${producto.id}">
       <img src="${producto.imagen}" alt="${producto.nombre}">
@@ -16,6 +11,5 @@ destacados.forEach(producto => {
       <p class="precio">$${producto.precio.toLocaleString("es-AR")}</p>
     </a>
   `;
-  listaDestacados.appendChild(item);
+  listaProductos.appendChild(item);
 });
-
