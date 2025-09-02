@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #F5E6D3;
+    color: #1b1b1b;
+}
+
+header {
+    width: 100%;
+    background-color: #87A96B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+header nav {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+}
+
+header nav a {
+    display: flex;
+    color: #A0522D;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+#hero-banner {
+    width: 100vw;    
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+#hero-banner p {
+    color: #C47A6D;
+}
+
+#productos-destacados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+#pie-pagina {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+h1 {
+    color: #A0522D;
+}
+
+h2 {
+    color: #A0522D;
+
+}
+
+#productos-destacados {
+  padding: 2rem 0;
+  background: #F5E6D3;
+}
+
+#lista-destacados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tarjeta-producto {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.tarjeta-producto img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.tarjeta-producto h3 {
+  font-size: 1.2rem;
+  margin: 0.8rem 0;
+  color: #A0522D;
+}
+
+.tarjeta-producto .precio {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #C47A6D;
+}
+
+#lista-destacados .producto {
+  background: #fff;
+  width: 220px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#lista-destacados img {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+}
+
+#lista-destacados h3 {
+  margin: 1rem 0 0.5rem 0;
+  font-size: 1.1rem;
+  color: #A0522D;
+  text-align: center;
+}
+
+#lista-destacados .precio {
+  color: #87A96B;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+#contacto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+    gap: 1.5rem;
+}
+
+#contacto label {
+    color: #A0522D;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#contacto input,
+#contacto textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #87A96B;
+    font-size: 1rem;    
+}
+
+#contacto button,
+#contacto input[type="submit"] {
+    background: #87A96B;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#contacto button:hover,
+#contacto input[type="submit"]:hover {
+    background: #A0522D;
+}
+
+@media (min-width: 768px) {
+    #hero-banner {
+        height: 60vh;
+    }
+    #contacto {
+        padding: 1rem;
+        margin: 1.5rem 0.5rem;
+    }
+}
