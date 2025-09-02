@@ -40,7 +40,7 @@ header img {
 }
 
 #hero-banner {
-    width: 100vw;    
+    width: 100vw;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -83,75 +83,75 @@ h2 {
 }
 
 #productos-destacados {
-  padding: 2rem 0;
-  background: #F5E6D3;
+    padding: 2rem 0;
+    background: #F5E6D3;
 }
 
 #lista-destacados {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .tarjeta-producto {
-  background-color: white;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
 }
 
 .tarjeta-producto img {
-  width: 50%;
-  height: auto;
-  border-radius: 8px;
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
 }
 
 .tarjeta-producto h3 {
-  font-size: 1.2rem;
-  margin: 0.8rem 0;
-  color: #A0522D;
+    font-size: 1.2rem;
+    margin: 0.8rem 0;
+    color: #A0522D;
 }
 
 .tarjeta-producto .precio {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #C47A6D;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #C47A6D;
 }
 
 #lista-destacados .producto {
-  background: #fff;
-  width: 220px;
-  height: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
+    background: #fff;
+    width: 220px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 #lista-destacados img {
-  width: 100%;
-  height: 150px;
-  border-radius: 8px;
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
 }
 
 #lista-destacados h3 {
-  margin: 1rem 0 0.5rem 0;
-  font-size: 1.1rem;
-  color: #A0522D;
-  text-align: center;
+    margin: 1rem 0 0.5rem 0;
+    font-size: 1.1rem;
+    color: #A0522D;
+    text-align: center;
 }
 
 #lista-destacados .precio {
-  color: #87A96B;
-  font-weight: bold;
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+    color: #87A96B;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
 }
 
 #contacto {
@@ -176,7 +176,7 @@ h2 {
     width: 100%;
     padding: 0.7rem;
     border: 1px solid #87A96B;
-    font-size: 1rem;    
+    font-size: 1rem;
 }
 
 #contacto button,
@@ -195,10 +195,32 @@ h2 {
     background: #A0522D;
 }
 
+#lista-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);/* 2 columnas de igual tamaño */
+    gap: 20px; /* Espacio entre productos */
+    padding: 20px;
+    
+}
+
+.caja-logo{
+    display: flex;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #F5E6D3;
+}
+
+
+
+.imagen-producto {
+ background-color: #F5E6D3;
+}
+
 @media (min-width: 768px) {
     #hero-banner {
         height: 60vh;
     }
+
     #contacto {
         padding: 1rem;
         margin: 1.5rem 0.5rem;
