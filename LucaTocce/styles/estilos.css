@@ -219,6 +219,10 @@ h2 {
  border: solid gray;
 }
 
+
+
+
+
 @media (min-width: 768px) {
     #hero-banner {
         height: 60vh;

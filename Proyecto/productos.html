@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Productos</title>
+  <link rel="stylesheet" href="styles/estilos.css" />
+</head>
+
+<body>
+<header>
+    <div class="container">
+        <img class="logo" src="img/logo.svg" alt="imagen logo">
+
+        <nav>
+            <ul>
+                <li>
+                    <div id="carrito">
+                        <img src="img/carro-de-la-compra.png" alt="imagen carrito">
+                        <p id="contador-carrito">0</p>
+                    </div>
+                </li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html" target="_blank" rel="noopener noreferrer">Catálogo</a></li>
+                <li><a href="contacto.html" target="_blank" rel="noopener noreferrer">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+  <main>
+    <section id="catalogo">
+      <h2>Catálogo de Productos</h2>
+
+      <!-- Campo de búsqueda -->
+      <div id="buscador">
+        <input type="text" id="input-busqueda" placeholder="Buscar producto..." />
+      </div>
+
+      <ul id="lista-productos">
+        <!-- Aquí se renderizan las tarjetas dinámicamente -->
+      </ul>
+    </section>
+  </main>
+
+  <section id="contacto">
+      <div class="container">
+          <!-- Columna izquierda -->
+          <div class="columna">
+              <h3>Hermanos Jota — Casa Taller</h3>
+              <address>
+                  Av. San Juan 2847<br>
+                  C1232AAB — Barrio de San Cristóbal<br>
+                  Ciudad Autónoma de Buenos Aires, Argentina
+              </address>
+          </div>
+          <!-- Columna derecha -->
+          <div class="columna">
+              <div class="encabezado">
+                  <h3>Horarios:</h3>
+                  <p>Lunes a Viernes: 10:00 - 19:00</p>
+                  <p>Sábados: 10:00 - 14:00</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <footer>
+      <div class="container">
+          <p>© 2025 Hermanos Jota. Todos los derechos reservados.
+              Este manual es propiedad de Hermanos Jota Muebles.</p>
+      </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/productos.js"></script>
+</body>
+
+</html>
