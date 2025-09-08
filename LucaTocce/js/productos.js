@@ -10,6 +10,7 @@ productos.forEach(producto => {
       <h3>${producto.nombre}</h3>
       <p class="precio">$${producto.precio.toLocaleString("es-AR")}</p>
     </a>
+    <button class="boton-añadir-carrito">Añadir al carrito</button>
   `;
   listaProductos.appendChild(item);
 });

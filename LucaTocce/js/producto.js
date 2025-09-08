@@ -16,6 +16,7 @@ if(producto){
       <img src="${producto.imagen}" alt="${producto.nombre}">
       <h3>${producto.nombre}</h3>
       <p class="precio">$${producto.precio.toLocaleString("es-AR")}</p>
+      
   `;
   detalleProducto.appendChild(item);
 }

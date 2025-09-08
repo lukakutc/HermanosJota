@@ -32,7 +32,7 @@ productos = [
     id: 5,
     nombre: "Mesa Comedor Pampa",
     precio: 140000,
-    imagen: "img/Mesa Comedor Pampa.png", 
+    imagen: "img/Mesa Comedor Pampa.png",
     destacado: false
   },
   {
@@ -78,3 +78,20 @@ productos = [
     destacado: false
   },
 ];
+
+let contadorCarrito = 0;
+
+const botonesCarrito = document.querySelectorAll(".boton-añadir-carrito");
+console.log(botonesCarrito.length)
+botonesCarrito.forEach((boton) => {
+  boton.addEventListener("click", incrementarCantCarrito)
+})
+
+
+
+function incrementarCantCarrito() {
+  console.log("Carrito icnrementado")
+  contadorCarrito++;
+  const variableCarrito = document.getElementById("contador-carrito");
+  variableCarrito.textContent = contadorCarrito;
+}
