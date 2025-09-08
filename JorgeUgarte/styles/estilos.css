@@ -12,9 +12,10 @@ body{
 p{
     font-size: 1.25em;
 }
-ul{
+ul li{
     list-style-type: none;
     font-size: 1.5em;
+    margin: 10px;
 }
 
 /*-----------Titulos y subtitulos----*/
@@ -181,12 +182,95 @@ main .container{
     padding-top: 10px;
 }
 
+address{
+
+    font-weight: bold;
+}
+
+
+
+/*-------Producto--------*/
+
+
+#producto .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.imagen-producto{
+
+}
+
+.imagen-producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.detalle-producto .description {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #2C2C2C;
+    margin-bottom: 48px;
+    padding: 0;
+}
+
+.detalle-producto .description h2 {
+    font-size: 36px;
+    margin-bottom: 32px;
+    color: #A0522D;
+    position: relative;
+}
+.detalle-producto .description h1 {
+    font-size: 36px;
+}
+
+.spec {
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #F5E6D3;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 24px;
+}
+
+.spec th {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #A0522D;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(160, 82, 45, 0.1);
+    background-color:#E6CBB3 ;
+}
+
+
+.spec td {
+    font-size: 16px;
+    color: #2C2C2C;
+    padding: 6px 12px;
+    border-bottom: 1px solid rgba(160, 82, 45, 0.1);
+}
+.spec td,
+.spec th {
+    padding:16px 24px;
+    text-align: left;
+    border-bottom: 1px solid rgba(160, 82, 45, 0.1);
+}
 
 
 
 
 @media (min-width: 720px) {
-
     header .container{
         flex-direction: row;
         justify-content: space-between;
@@ -199,5 +283,11 @@ main .container{
     #contacto .container{
         flex-direction: row;
     }
-
+    ul li{
+        display: inline;
+    }
+    #producto .container{
+        flex-direction: row;
+        align-items: flex-start;
+    }
 }

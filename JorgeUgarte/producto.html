@@ -7,17 +7,79 @@
     <title>Producto</title>
 </head>
 <body>
-    <header>
-        <img src="img/logo.svg" alt="imagen logo">
+
+
+<header>
+    <div class="container">
+        <img class="logo" src="img/logo.svg" alt="imagen logo">
         <nav>
-            <a href="index.html">Inicio </a>
-            <a href="productos.html"  target="_blank" rel="noopener noreferrer">Catálogo </a>
-            <a href="contacto.html"  target="_blank" rel="noopener noreferrer">contacto</a>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html" target="_blank" rel="noopener noreferrer">Catálogo</a></li>
+                <li><a href="contacto.html" target="_blank" rel="noopener noreferrer">Contacto</a></li>
+            </ul>
         </nav>
-    </header>
-     <div id="detalle-producto">
-        <!-- Aquí se cargará dinámicamente el producto -->
-     </div>
+    </div>
+</header>
+
+
+    <section id="producto">
+        <div class="container">
+            <div class="imagen-producto">
+                <!-- Aquí se cargará la imagen del producto -->
+            </div>
+            <div class="detalle-producto">
+            <!-- Aqui se cargara el detalle del producto -->
+                <table class="spec">
+                    <tbody id="tabla-producto">
+
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </section>
+    <button></button>
+
+
+
+
+
+
+
+
+
+    <section id="contacto">
+        <div class="container">
+            <!-- Columna izquierda -->
+            <div class="columna">
+                <h3>Hermanos Jota — Casa Taller</h3>
+                <address>
+                    Av. San Juan 2847<br>
+                    C1232AAB — Barrio de San Cristóbal<br>
+                    Ciudad Autónoma de Buenos Aires, Argentina
+                </address>
+            </div>
+            <!-- Columna derecha -->
+            <div class="columna">
+                <div class="encabezado">
+                    <h3>Horarios:</h3>
+                    <p>Lunes a Viernes: 10:00 - 19:00</p>
+                    <p>Sábados: 10:00 - 14:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Hermanos Jota. Todos los derechos reservados.
+                Este manual es propiedad de Hermanos Jota Muebles.</p>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
     <script src="js/data.js"></script>
     <script src="js/producto.js"></script>
 </body>
