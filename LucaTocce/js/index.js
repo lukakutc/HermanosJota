@@ -19,3 +19,6 @@ destacados.forEach(producto => {
   listaDestacados.appendChild(item);
 });
 
+
+
+
