@@ -1,8 +1,6 @@
 Importante
 
-Debido a diversos motivos familiares, educativos y laborales, la comunicación dentro del equipo no fue completamente fluida. Asimismo, la salida de un integrante del grupo por razones personales dificultó la coordinación. Como resultado, no se logró cumplir en su totalidad con los requerimientos solicitados.
-
-Si bien esto no constituye una excusa, ofrecemos nuestras disculpas y nos ponemos a disposición para cualquier aclaración, comprometiéndonos a mejorar la coordinación y entrega en futuros proyectos.
+Por distintos temas, familiares, educacionales, de trabajo, no hubo una comunicacion fluida con el equipo y por un miembro de equipo que abandono por distintas razones no se pudo llegar a los requerimientos pedidos en gran medida. Se entiende que no es excusa, pero no pudimos llegar aun mutuo acuerdo entre los compañeros, ofrecemos disculpas y nos ponemos a su disposicion, prometiendo entrega en futuros proyectos.
 
 Nombre del Proyecto: Hermanos Jota
 
